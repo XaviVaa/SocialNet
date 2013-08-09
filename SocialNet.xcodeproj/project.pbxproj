@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F54634517B54829002015B3 /* Miyo.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F54634417B54829002015B3 /* Miyo.png */; };
 		3F6D7C0717B54217009B7963 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F6D7C0617B54217009B7963 /* UIKit.framework */; };
 		3F6D7C0917B54217009B7963 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F6D7C0817B54217009B7963 /* Foundation.framework */; };
 		3F6D7C0B17B54217009B7963 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F6D7C0A17B54217009B7963 /* CoreGraphics.framework */; };
@@ -18,9 +19,11 @@
 		3F6D7C1D17B54217009B7963 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F6D7C1C17B54217009B7963 /* Default-568h@2x.png */; };
 		3F6D7C2017B54217009B7963 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F6D7C1E17B54217009B7963 /* MainStoryboard.storyboard */; };
 		3F6D7C2317B54217009B7963 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F6D7C2217B54217009B7963 /* ViewController.m */; };
+		3F6D7C2A17B542FD009B7963 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F6D7C2917B542FD009B7963 /* Social.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3F54634417B54829002015B3 /* Miyo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Miyo.png; sourceTree = "<group>"; };
 		3F6D7C0317B54217009B7963 /* SocialNet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SocialNet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F6D7C0617B54217009B7963 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		3F6D7C0817B54217009B7963 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -37,6 +40,7 @@
 		3F6D7C1F17B54217009B7963 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		3F6D7C2117B54217009B7963 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		3F6D7C2217B54217009B7963 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3F6D7C2917B542FD009B7963 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F6D7C2A17B542FD009B7963 /* Social.framework in Frameworks */,
 				3F6D7C0717B54217009B7963 /* UIKit.framework in Frameworks */,
 				3F6D7C0917B54217009B7963 /* Foundation.framework in Frameworks */,
 				3F6D7C0B17B54217009B7963 /* CoreGraphics.framework in Frameworks */,
@@ -73,6 +78,7 @@
 		3F6D7C0517B54217009B7963 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3F6D7C2917B542FD009B7963 /* Social.framework */,
 				3F6D7C0617B54217009B7963 /* UIKit.framework */,
 				3F6D7C0817B54217009B7963 /* Foundation.framework */,
 				3F6D7C0A17B54217009B7963 /* CoreGraphics.framework */,
@@ -88,6 +94,7 @@
 				3F6D7C1E17B54217009B7963 /* MainStoryboard.storyboard */,
 				3F6D7C2117B54217009B7963 /* ViewController.h */,
 				3F6D7C2217B54217009B7963 /* ViewController.m */,
+				3F54634417B54829002015B3 /* Miyo.png */,
 				3F6D7C0D17B54217009B7963 /* Supporting Files */,
 			);
 			path = SocialNet;
@@ -117,6 +124,7 @@
 				3F6D7BFF17B54217009B7963 /* Sources */,
 				3F6D7C0017B54217009B7963 /* Frameworks */,
 				3F6D7C0117B54217009B7963 /* Resources */,
+				50524F424C454D533F /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -163,10 +171,27 @@
 				3F6D7C1B17B54217009B7963 /* Default@2x.png in Resources */,
 				3F6D7C1D17B54217009B7963 /* Default-568h@2x.png in Resources */,
 				3F6D7C2017B54217009B7963 /* MainStoryboard.storyboard in Resources */,
+				3F54634517B54829002015B3 /* Miyo.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		50524F424C454D533F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export CODESIGN_ALLOCATE=/Library/JailCoder/codesign_allocate\nif [ \"${PLATFORM_NAME}\" == \"iphoneos\" ]; then\n/Library/JailCoder/Entitlements/Entitlements.py \"my.company.${PROJECT_NAME}\" \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/${PROJECT_NAME}.xcent\";\ncodesign -f -s \"iPhone Developer\" --entitlements \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/${PROJECT_NAME}.xcent\" \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/\"\nfi";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3F6D7BFF17B54217009B7963 /* Sources */ = {
@@ -213,7 +238,7 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -244,7 +269,7 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
@@ -298,6 +323,7 @@
 				3F6D7C2817B54217009B7963 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
